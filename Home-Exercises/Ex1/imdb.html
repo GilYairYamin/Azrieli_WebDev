@@ -2,50 +2,187 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./imdb.css" />
+		<link
+			rel="stylesheet"
+			href="./imdb.css" />
 	</head>
 	<body>
 		<header class="row-flex">
-			<img id="main-logo" src="./images/channels4_profile.jpg" alt="" />
+			<img
+				id="main-logo"
+				src="./images/channels4_profile.jpg"
+				alt="" />
 			<div class="column-flex">
-				<div id="search-bar" class="row-flex">
+				<div
+					id="search-bar"
+					class="row-flex">
 					<input
 						id="search-input"
 						type="text"
 						placeholder="Find Movies, TV shows, Celebrities and more..." />
-					<select name="search-options" id="search-options">
+					<select
+						name="search-options"
+						id="search-options">
 						<option value="All">All</option>
-						<option value="More">More</option>
-						<option value="None">None</option>
+						<option value="TV-Episodes">TV Episodes</option>
+						<option value="titles">Titles</option>
+						<option value="keywords">Keywords</option>
+						<option value="Companies">Companies</option>
+						<option value="Companies">Names</option>
 					</select>
-					<button id="search-button">search</button>
+					<button id="search-button">&#x1F50D</button>
 				</div>
-				<nav id="nav-bar">
-					<ul class="nav-ul">
-						<li class="nav-li">
-							<a id="movies-button" class="nav-button" href="https://google.com"
-								>movies, TV & Showtimes</a
+				<nav
+					id="nav-bar"
+					class="row-flex">
+					<ul class="nav-ul border-ul">
+						<li class="nav-li border-li">
+							<a
+								id="movies-button"
+								class="nav-button"
+								href="https://google.com">
+								movies, TV & Showtimes
+							</a>
+						</li>
+						<li class="nav-li border-li">
+							<a
+								class="nav-button"
+								href="https://google.com">
+								Celebs, Events & Photos
+							</a>
+						</li>
+						<li class="nav-li border-li">
+							<a
+								class="nav-button"
+								href="https://google.com"
+								>News & Community</a
 							>
 						</li>
-						<li class="nav-li">
-							<a id="Celebs-button" class="nav-button" href="https://google.com"
-								>Celebs, Events & Photos</a
+						<li class="nav-li border-li">
+							<a
+								class="nav-button"
+								href="https://google.com"
+								>Watchlist</a
 							>
 						</li>
-						<li class="nav-li">
-							<a id="news-button" class="nav-button" href="https://google.com">News & Community</a>
-						</li>
-						<li class="nav-li">
-							<a id="watchlist-button" class="nav-button" href="https://google.com">Watchlist</a>
-						</li>
-						<li class="nav-li">
-							<a id="sign-in-button" class="nav-button" href="https://google.com">Sign in</a>
+						<li
+							class="border-li">
+							<button
+								id="sign-in-button"
+								href="https://google.com">
+								Sign in
+							</button>
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
+
+		<section class="row-flex">
+			<div
+				id="movie-details"
+				class="column-flex">
+				<div
+					id="movie-title"
+					class="row-flex">
+					<div class="column-flex">
+						<h1>Spiderman: Across the Spider-verse</h1>
+						<ul class="info-ul border-ul">
+							<li class="info-li border-li"><h6>2023</h6></li>
+							<li class="info-li border-li"><h6>PG</h6></li>
+							<li class="info-li border-li"><h6>2h 20m</h6></li>
+							<li class="info-li border-li"><h6>Action, Animation, Adventure</h6></li>
+						</ul>
+					</div>
+					<div
+						id="rating-div"
+						class="row-flex">
+						<img
+							class="star-logo"
+							src="./images/full-star.png"
+							alt="" />
+						<div class="column-flex">
+							<div
+								id="rating-numbers"
+								class="row-flex">
+								<h2>8.6</h2>
+								<h5>/10</h5>
+							</div>
+							<h5>342K</h5>
+						</div>
+						<hr id="rating-seperator" />
+						<a
+							id="rate-this-button"
+							class="row-flex"
+							href="https://google.com">
+							<img
+								class="star-logo"
+								src="./images/empty-star.png"
+								alt="" />
+							<h5>Rate this</h5>
+						</a>
+					</div>
+				</div>
+				<div
+					id="movie-images"
+					class="row-flex">
+					<img
+						id="movie-image"
+						src="https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
+						alt="spiderman-image" />
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/shW9i6k8cB0?si=MmKSyKsBJc7YHQGT"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+				</div>
+				<div id="synopsis">
+					<p>
+						Miles Morales catapults across the multiverse, where he encounters a team of
+						Spider-People charged with protecting its very existence. When the heroes clash on how
+						to handle a new threat, Miles must redefine what it means to be a hero.
+					</p>
+					<h5 class="credits">
+						Directors: <a href="https://google.com">Joaquim Dis Santos</a>,
+						<a href="https://google.com">Kemp Powers</a>, and
+						<a href="https://google.com">Justin K. Thompson</a>
+					</h5>
+					<h5 class="credits">
+						Writers: <a href="https://google.com">Phil Lord</a>,
+						<a href="https://google.com">Christopher Miller</a> , and
+						<a href="https://google.com">Dave Callaham</a>
+					</h5>
+					<h5 class="credits">Starring: Shameik Moore, Hailee Steinfeld, Bryan Tyree Henry</h5>
+					<button class="blue-button">+ Add to watch list</button>
+				</div>
+			</div>
+			<div id="related-articles">
+				<h2 id="news-title">Related News</h2>
+				<div class="news-article">
+					<a
+						class="news-link"
+						href="https://www.imdb.com/video/vi4032807961/?listId=ls025720609&ref_=tt_c_og_ots_spiderverse_cta"
+						><h4 class="news-link-title">'Spider-Man: Across the Spider-Verse' Cast Get Vocal</h4>
+					</a>
+					<h5>10 Octover 2023 | Variety</h5>
+				</div>
+				<br />
+				<div class="news-article">
+					<a
+						class="news-link"
+						href="https://www.imdb.com/title/tt9362722/awards/"
+						><h4 class="news-link-title">'Spider-Man: Across the Spider-Verse - awards</h4>
+					</a>
+					<h5>31 December 2023 | Awards</h5>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
