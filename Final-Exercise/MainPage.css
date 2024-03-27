@@ -1,0 +1,121 @@
+* {
+	text-align: center;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 10px;
+	text-transform: capitalize;
+}
+
+a {
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+}
+a:visited {
+	color: cadetblue;
+}
+
+div {
+	margin: 2px;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	align-items: center;
+}
+
+input {
+	margin: 10px;
+	width: 500px;
+	border-radius: 7px;
+	border-width: 2px;
+	font-size: 30px;
+}
+
+button {
+	font-size: larger;
+	background-color: gold;
+	border-radius: 10px;
+	width: fit-content;
+	margin: 10px;
+}
+
+td {
+	font-size: 30px;
+	font-weight: bold;
+	border: 3px solid black;
+	border-radius: 2px;
+	min-width: 80px;
+	height: 80px;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.regular {
+	background-color: white;
+}
+
+.semi-prime {
+	background-color: cyan;
+}
+
+.brilliant {
+	background-color: gold;
+}
+
+#middle-section {
+	width: 100%;
+	min-height: 200px;
+}
+
+#links-div {
+	width: 30%;
+	align-items: center;
+}
+
+#input-div {
+	width: 70%;
+	align-items: center;
+}
+
+#output-div {
+	min-height: 100px;
+}
+
+#popup-div {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 150px;
+	background-color: white;
+}
+
+#error-message {
+	text-transform: none;
+}

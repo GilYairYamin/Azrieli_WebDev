@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Brilliant and Prime Numbers</title>
+		<link
+			rel="stylesheet"
+			href="./MainPage.css" />
+		<script src="./MainPage.js"></script>
+	</head>
+	<body onload="initFunction()">
+		<div
+			id="title-div"
+			class="flex-column">
+			<h1>Gil Yair Yamin - 207027053</h1>
+		</div>
+		<section
+			id="middle-section"
+			class="flex-row">
+			<div
+				id="links-div"
+				class="flex-column">
+				<h2>links:</h2>
+				<a href="https://en.wikipedia.org/wiki/Semiprime">Semiprime Numbers</a>
+				<a href="https://www.alpertron.com.ar/BRILLIANT.HTM">Brilliant Numbers</a>
+			</div>
+			<div
+				id="input-div"
+				class="flex-column">
+				<input
+					id="input-field"
+					type="text" />
+				<button id="cmdCalculate">Calculate</button>
+			</div>
+		</section>
+		<div
+			id="output-div"
+			class="flex-column"></div>
+		<div
+			id="popup-div"
+			class="hidden">
+			<h3 id="error-message">Illegal input, please enter a positive whole number</h3>
+			<button id="error-button">okay</button>
+		</div>
+	</body>
+</html>
